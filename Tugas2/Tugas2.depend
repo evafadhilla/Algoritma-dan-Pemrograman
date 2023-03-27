@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1679880037 source:d:\perkuliahan\semester 2\algoritma pemrograman\latihan\tugas2\main.cpp
+	<iostream>
+	<stdbool.h>
+
