@@ -10,7 +10,6 @@
 #include <iostream>
 using namespace std;
 
-// Fungsi rekursif untuk penjumlahan
 int penjumlahan(int a, int b)
 {
     if(b == 0)
@@ -19,7 +18,6 @@ int penjumlahan(int a, int b)
         return penjumlahan(a+1, b-1);
 }
 
-// Fungsi rekursif untuk pengurangan
 int pengurangan(int a, int b)
 {
     if(b == 0)
@@ -28,7 +26,6 @@ int pengurangan(int a, int b)
         return pengurangan(a-1, b-1);
 }
 
-// Fungsi rekursif untuk perkalian
 int perkalian(int a, int b)
 {
     if(b == 0)
@@ -37,7 +34,6 @@ int perkalian(int a, int b)
         return a + perkalian(a, b-1);
 }
 
-// Fungsi rekursif untuk pangkat
 int pangkat(int a, int b)
 {
     if(b == 0)
@@ -46,7 +42,6 @@ int pangkat(int a, int b)
         return a*pangkat(a, b-1);
 }
 
-// Fungsi rekursif untuk pembagian
 int pembagian(int a, int b)
 {
     if(a<b)
@@ -55,7 +50,6 @@ int pembagian(int a, int b)
         return 1+pembagian(a-b, b);
 }
 
-// Fungsi rekursif untuk deret Fibonacci
 int fibonacci(int n)
 {
     if(n <= 1)
@@ -64,7 +58,6 @@ int fibonacci(int n)
         return fibonacci(n-1)+fibonacci(n-2);
 }
 
-// Fungsi rekursif untuk faktorial
 int faktorial(int n)
 {
     if(n == 0 || n == 1)
